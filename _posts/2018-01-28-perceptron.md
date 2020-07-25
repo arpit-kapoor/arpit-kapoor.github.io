@@ -8,7 +8,7 @@ header:
 excerpt: "Evolutionary algorithms Coupled with MCMC for Training Neural Networks"
 ---
 
-<!-- # H1
+# H1
 
 ## H2
 
@@ -28,4 +28,4 @@ Here's another image using Kramdown:
 Here's some math
 $$z=x+y$$ 
 
-inline: $$z=x+y$$ -->
+inline: $$z=x+y$$
