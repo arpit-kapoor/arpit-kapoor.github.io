@@ -20,6 +20,7 @@ Here's some *italics*
 Here's some **bold** text
 
 Here's an image:
+
 <img src="{{ site.baseurl }}/images/neuroevolution/linsep.jpg" alt="waterfront">
 
 Here's another image using Kramdown:
