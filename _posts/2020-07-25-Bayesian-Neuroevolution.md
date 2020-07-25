@@ -5,7 +5,7 @@ date: 2020-07-25
 tags: [machine learning, neural network, mcmc, neuroevolution]
 header:
     image: "/images/neuroevolution/neuroevolution.png"
-excerpt: "Evolutionary algorithms Coupled with MCMC for Training Neural Networks"
+excerpt: "Evolutionary algorithms coupled with Markov Chain Monte Carlo for Training Neural Networks"
 mathjax: true
 ---
 
