@@ -5,7 +5,6 @@ tags: [machine learning, neural network, mcmc, neuroevolution]
 header:
     image: "/images/neuroevolution/neuroevolution.png"
 excerpt: "Evolutionary algorithms Coupled with MCMC for Training Neural Networks"
-mathjax: true
 ---
 
 <!-- # H1
