@@ -1,7 +1,7 @@
 ---
 title: "Experience"
 permalink: /experience/
-layout: single
+layout: collection
 ---
 
 ## 3Qi Labs, Hyderabad— *Data Scientist*
