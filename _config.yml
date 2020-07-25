@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Arpit Kapoor"
   avatar           : "/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I like building Machine Learning Applications"
+  bio              : "Data Scientist"
   location         : "Hyderabad, India"
   email            : "kapoor.arpit97@gmail.com"
   links:
