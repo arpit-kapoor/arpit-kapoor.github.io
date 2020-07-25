@@ -1,12 +1,12 @@
 ---
 title: "Publications"
-layout: single
+layout: categories
 permalink: /publications/
 ---
 
 ## Journal Publications
 
-[Chandra, R., Azam, D., Kapoor, A., & Mulller, R. D. (2019). Surrogate-assisted Bayesian inversion for landscape and basin evolution models. *Geoscientific Model Development Discussions*, 1-28.](https://gmd.copernicus.org/articles/13/2959/2020/gmd-13-2959-2020.html)
+Chandra, R., Azam, D., Kapoor, A., & Mulller, R. D. (2019). Surrogate-assisted Bayesian inversion for landscape and basin evolution models. *Geoscientific Model Development Discussions*, 1-28.
 
 Chandra, R., Jain, K., Kapoor, A., & Aman, A. (2020). Surrogate-assisted parallel tempering for Bayesian neural learning. *Engineering Applications of Artificial Intelligence*, 94, 103700.
 
