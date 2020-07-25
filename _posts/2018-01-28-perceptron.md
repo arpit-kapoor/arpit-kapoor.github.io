@@ -1,5 +1,6 @@
 ---
 title: "Bayesian Neuroevolution"
+layout: single
 date: 2020-07-25
 tags: [machine learning, neural network, mcmc, neuroevolution]
 header:
