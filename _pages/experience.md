@@ -1,20 +1,24 @@
 ---
 title: "Experience"
 permalink: /experience/
-layout: collection
+layout: single
+# classes: wide
+toc: true
+toc_label: "Experience"
 ---
 
 ## 3Qi Labs, Hyderabad— *Data Scientist*
 *NOV 2019 - Present*
 
-Develop Machine Learning model for detecting anomalies in data. Detect issues in data such as referential integrity failure using machine learning. Carry out Exploratory Data Analysis (EDA) on big data. Develop and maintain a machine learning pipeline for anomaly detection in big data using Tensorflow, PySpark and hadoop. Visualizing real time data in Kibana and elasticsearch.
+I have worked extensively with machine learning and data mining tools on Big Data technologies to generate insights into the data. My current project includes developing Deep Learning model to detect issues in data such as referential integrity failure and outlier detection. I am also responsible for generating insights into the data using Exploratory data analysis and Visualisation tools. Furthermore, my responsibilities include analysing code for system testing, debugging and created test transactions to find, isolate and rectify issues. Tensorflow, Elasticsearch, Kibana, Hadoop, and Tableau are few of the other tools I work with extensively.
 
 ## Bomotix, Hyderabad— *Machine Learning Developer*
 *JAN 2019 - NOV 2019*
 
-Develop Computer Vision based Deep learning models using various deep learning frameworks: Object detection, object tracking and human pose estimation. Optimization and containerised deployment of ML models. Developed new procedures for requirements gathering,  testing, scripting and documentation to strengthen quality and functionality of applications.
+As a machine learning developer, my job involved end-to-end developeent and deployment of various Deep Learning pipelines in Apache MxNEt using Kubernetes and Docker containers. Object detection, object tracking and human pose estimation are a few of the Computer vision problems I worked on during this period. Moreover, I developed new procedures for requirements gathering, testing, scripting and documentation to strengthen quality and functionality of these applications.
 
 ## The University of Sydney, NSW Australia— Research Intern (Machine Learning)
 *JUN 2018 - AUG 2018*
 
-Contribute to various research projects in the area of Bayesian machine learning. Carry out EDA, Data Preprocessing and Visualisation. Implement various Markov Chain Monte-Carlo based sampling Schemes transfer learning and evolutionary neural learning. 
+During my internship, I worked with *Dr Rohitash Chandra* and *Prof Sally Cripps* on various research projects in the area of Bayesian machine learning. I worked on method formulation for training Neural Networks using MCMC sampling schemes. As an outcome of this internship, I learnt the principles of Bayesian Machine learning and how it can be used effectively to train neural networks. Three of our research papers are now published in Top tier Journals. I continue to work with Dr Chandra on various Research projects involving Neuroevolution via MCMC.
+
