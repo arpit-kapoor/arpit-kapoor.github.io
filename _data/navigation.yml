@@ -6,7 +6,7 @@ main:
     url: "/experience/"
   - title: "Publications"
     url: /publications/
-  - title: "Projects"
-    url: /projects/
-  - title: "Awards"
-    url: /awards/
+  # - title: "Projects"
+  #   url: /projects/
+  # - title: "Awards"
+  #   url: /awards/

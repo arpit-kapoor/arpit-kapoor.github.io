@@ -12,11 +12,11 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Portfolio"
+title                    : "Arpit Kapoor"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Arpit Kapoor"
@@ -103,7 +103,7 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:kapoor.arpit97@gmail.com"
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-link"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/arpit-kapoor47/"
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -111,9 +111,12 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/theArpitKapoor"
+    - label: "Scholar"
+      icon: "fab fa-fw fa-google"
+      url: "https://scholar.google.com/citations?user=2caOA5wAAAAJ&hl=en"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/itsarpitkapoor"
+      # url: "https://www.facebook.com/itsarpitkapoor"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/arpit-kapoor"
@@ -125,17 +128,17 @@ author:
 footer:
   links:
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-linkedin-square"
-      url: "https://www.linkedin.com/in/arpit-kapoor47/"
+      icon: "fas fa-fw fa-linkedin-square" 
+      # url: "https://www.linkedin.com/in/arpit-kapoor47/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/theArpitKapoor"
+      # url: "https://twitter.com/theArpitKapoor"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/itsarpitkapoor"
+      # url: "https://www.facebook.com/itsarpitkapoor"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/arpit-kapoor"
+      # url: "https://github.com/arpit-kapoor"
 
 
 # Reading Files
