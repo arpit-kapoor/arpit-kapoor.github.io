@@ -2,6 +2,11 @@
 title: "Publications"
 layout: single
 permalink: /publications/
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.75"
+  overlay_image: /images/sydney.jpg
+  caption: "Sydney, NSW, Australia"
 ---
 
 ## Journal Publications

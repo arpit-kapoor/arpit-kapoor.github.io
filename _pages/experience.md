@@ -5,6 +5,11 @@ layout: single
 # classes: wide
 toc: true
 toc_label: "Experience"
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.75"
+  overlay_image: /images/Vancouver_crop.jpg
+  caption: "Vancouver, Canada"
 ---
 
 ## 3Qi Labs, Hyderabad— *Data Scientist*
@@ -21,4 +26,3 @@ As a machine learning developer, my job involved end-to-end developeent and depl
 *JUN 2018 - AUG 2018*
 
 During my internship, I worked with *Dr Rohitash Chandra* and *Prof Sally Cripps* on various research projects in the area of Bayesian machine learning. I worked on method formulation for training Neural Networks using MCMC sampling schemes. As an outcome of this internship, I learnt the principles of Bayesian Machine learning and how it can be used effectively to train neural networks. Three of our research papers are now published in Top tier Journals. I continue to work with Dr Chandra on various Research projects involving Neuroevolution via MCMC.
-

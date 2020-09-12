@@ -29,7 +29,7 @@ In essence, MCMC uses bayesian inference in a markov chain where a new sample va
 
 ## MCMC Random Walk on Neural Network parameters
 
-We will use a shallow network with only three layers *(Input, Hidden and Output)*. Let $$θ = (w' , v, β, µ)$$ that features a total of $$L$$ weights and biases. The feedforward neural network topology with one hidden layer is defined by the number of input $$(I)$$ , hidden $$(H)$$ and output $$(O)$$ neurons, respectively. Given single input instance $$x$$ with corresponding label $$y$$ from dataset $$Ω$$, the network computes the output $$fo(x)$$ for a neuron $$o$$ in the output layer by
+We will use a shallow network with only three layers *(Input, Hidden and Output)*. Let $$θ = (w , v, β, µ)$$ that features a total of $$L$$ weights and biases. The feedforward neural network topology with one hidden layer is defined by the number of input $$(I)$$ , hidden $$(H)$$ and output $$(O)$$ neurons, respectively. Given single input instance $$x$$ with corresponding label $$y$$ from dataset $$Ω$$, the network computes the output $$fo(x)$$ for a neuron $$o$$ in the output layer by
 
 $$f_o(X) = g(\beta_o + \displaystyle \sum_{j=1}^H v_{jo} * g(\mu_j + \displaystyle \sum_{d=1}^I w_{dj}x_d))$$
 
