@@ -1,7 +1,7 @@
 ---
 title: "Honors and Achievements"
 layout: splash
-permalink: "/awards"
+permalink: "/awards/"
 author_profile: true
 header:
   overlay_color: "#000"
