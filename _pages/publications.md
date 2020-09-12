@@ -4,9 +4,9 @@ layout: single
 permalink: /publications/
 header:
   overlay_color: "#000"
-  overlay_filter: "0.75"
-  overlay_image: /images/sydney.jpg
-  caption: "Sydney, NSW, Australia"
+  overlay_filter: "0.70"
+  overlay_image: /images/awards/Robogames17_4.jpg
+  caption: "Robogames 2017, San Francisco, USA"
 ---
 
 ## Journal Publications
