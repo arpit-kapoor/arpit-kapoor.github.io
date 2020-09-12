@@ -8,7 +8,7 @@ toc_label: "Experience"
 header:
   overlay_color: "#000"
   overlay_filter: "0.75"
-  overlay_image: /images/Vancouver_crop.jpg
+  overlay_image: /images/vancouver_crop.jpg
   caption: "Vancouver, Canada"
 ---
 
