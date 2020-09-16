@@ -10,7 +10,7 @@ header:
   caption: "Robogames 2017, San Francisco, USA"
 ---
 
-## Journal Publications
+# Journal Publications
 
  - [Chandra, R., Azam, D., Kapoor, A., & Mulller, R. D. (2019). Surrogate-assisted Bayesian inversion for landscape and basin evolution models. *Geoscientific Model Development Discussions*, 1-28.](https://gmd.copernicus.org/articles/13/2959/2020/gmd-13-2959-2020.html)
 
@@ -18,7 +18,7 @@ header:
 
  - [Chandra, R., & Kapoor, A. (2020). Bayesian neural multi-source transfer learning. *Neurocomputing*, 378, 54-64.](https://www.sciencedirect.com/science/article/abs/pii/S0925231219314213)
 
-## Conference Publications
+# Conference Publications
 
  - [Sripada, A., Asokan, H., Warrier, A., Kapoor, A., Gaur, H., Patel, R., & Sridhar, R. (2018, July). Teleoperation of a humanoid robot with motion imitation and legged locomotion. In 2018 *3rd International Conference on Advanced Robotics and Mechatronics (ICARM)* (pp. 375-379). IEEE.](https://ieeexplore.ieee.org/document/8610719)
 
