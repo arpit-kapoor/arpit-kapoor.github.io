@@ -20,7 +20,7 @@ header:
 
 <br>
 
- # Evolutionary MCMC
+# Evolutionary MCMC
  
  1. [Evolutionary MCMC](https://github.com/rohitash-chandra/Bayesian-neuroevolution/tree/9a769995ff5594e0fa8d8c226fcbd2174c68aa1f)
  2. [Evolutionary Parallel Tempering for Bayesian Neural Networks](https://github.com/sydney-machine-learning/evolutionary-pt)
