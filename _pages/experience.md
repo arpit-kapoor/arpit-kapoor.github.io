@@ -12,7 +12,7 @@ header:
   caption: "Vancouver, Canada"
 ---
 
-## 3Qi Labs, Hyderabad— *Data Scientist*
+## OoBA Labs, Hyderabad— *Data Scientist*
 *NOV 2019 - Present*
 
 I have worked extensively with machine learning and data mining tools on Big Data technologies to generate insights into the data. My current project includes developing Deep Learning model to detect issues in data such as referential integrity failure and outlier detection. I am also responsible for generating insights into the data using Exploratory data analysis and Visualisation tools. Furthermore, my responsibilities include analysing code for system testing, debugging and created test transactions to find, isolate and rectify issues. Tensorflow, Elasticsearch, Kibana, Hadoop, and Tableau are few of the other tools I work with extensively.
