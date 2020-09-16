@@ -23,4 +23,8 @@ header:
 
 # Solid Earth Evolution
  1. [Multi-core Parallel Tempering Bayeslands](https://github.com/intelligentEarth/pt-Bayeslands)
- 1. [Surrogate-assisted Bayeslands](https://github.com/intelligentEarth/surrogate-pt-Bayeslands)
+ 2. [Surrogate-assisted Bayeslands](https://github.com/intelligentEarth/surrogate-pt-Bayeslands)
+
+# Robotics
+ 1. [Pynamixel (A python wrapper package built on DynamixelSDK)](https://github.com/SRM-Team-Humanoid/pynamixel)
+ 2. [ROS Dynamixel Package](https://github.com/SRM-Team-Humanoid/ros_dynamixel)
