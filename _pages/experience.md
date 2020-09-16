@@ -20,7 +20,7 @@ I have worked extensively with machine learning and data mining tools on Big Dat
 ## Bomotix, Hyderabad— *Machine Learning Developer*
 *JAN 2019 - NOV 2019*
 
-As a machine learning developer, my job involved end-to-end developeent and deployment of various Deep Learning pipelines in Apache MxNEt using Kubernetes and Docker containers. Object detection, object tracking and human pose estimation are a few of the Computer vision problems I worked on during this period. Moreover, I developed new procedures for requirements gathering, testing, scripting and documentation to strengthen quality and functionality of these applications.
+As a machine learning developer, my job involved end-to-end developeent and deployment of various Deep Learning pipelines in Apache MxNet using Kubernetes and Docker containers. Object detection, object tracking and human pose estimation are a few of the Computer vision problems I worked on during this period. Moreover, I developed new procedures for requirements gathering, testing, scripting and documentation to strengthen quality and functionality of these applications.
 
 ## The University of Sydney, NSW Australia— Research Intern (Machine Learning)
 *JUN 2018 - AUG 2018*
