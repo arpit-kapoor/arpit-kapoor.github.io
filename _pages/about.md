@@ -8,7 +8,7 @@ header:
   overlay_image: /images/vancouver_crop.jpg
   caption: "Vancouver, Canada"
 ---
-I am an aspiring Data Scientist, currently working at [OoBA Labs](http://oobalabs.com/) where I work on research and development of machine learning models for an AI driven data quality solution platform.
+I am an aspiring Data Scientist, currently working at [OoBA Labs](http://www.oobalabs.com/) where I work on research and development of machine learning models for an AI driven data quality solution platform.
 
 I strongly believe that AI and machine learning will play a key role in the future of Data-driven technologies. Although there have been significant advances in this area, much work still remains in making these applications more robust and sustainable.
 
