@@ -17,7 +17,7 @@ header:
 # Undergraduate Final Year Thesis
 ---
 ## [Humanoid Maze Solver using Deep Reinforcement Learning](https://github.com/arpit-kapoor/RL-Humanoid)
-![demo](/images/humanoid-final-crop.gif){: .align-right .width-half}
+![demo](/images/projects/humanoid-final-crop.gif){: .align-right .width-half}
 Hierarchical Deep Reinforcement learning inspired approach used to teach a higher order complex task (solving a maze) to a humanoid. The approach consists of two policies; a higher level maze solver policy and a lower level Humanoid mobility policy. The code base is developed using Mujoco and Roboschool, while the policy is trained in Tensorflow.
 
 [Project](https://github.com/arpit-kapoor/RL-Humanoid){: .btn .btn--primary}
@@ -54,6 +54,15 @@ Surrogate version of BayesLands to reduce runtime <br>
 
 # Robotics
 ---
+![demo](/images/projects/teleop.gif){: .align-right .width-half}
+**Teleoperation of a humanoid robot with motion imitation and legged locomotion**<br>
+A teleoperated humanoid fabricated at SRM Institute of Sscience and Technology Humanoid Robotics lab. This project involves a Kinect 360 motion sensor to capture human motions and imitation by the humanoid robot.
+
+[Paper](https://ieeexplore.ieee.org/document/8610719){: .btn .btn--success}
+
+<br>
+
+
 **Pynamixel** <br>
 Python module written on top of DynamixelSDK to provide convinient interface with [Robotis Dynamixel Smart Robotic Actuators](http://www.robotis.us/dynamixel/) <br>
 [Code](https://github.com/SRM-Team-Humanoid/pynamixel){: .btn .btn--primary}
