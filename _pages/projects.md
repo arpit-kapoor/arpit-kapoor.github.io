@@ -14,7 +14,7 @@ header:
   caption: "Vancouver, Canada"
 ---
 
-# Undergraduate Final Year Thesis Project 
+# Undergraduate Final Year Thesis
 ---
 ## [Humanoid Maze Solver using Deep Reinforcement Learning](https://github.com/arpit-kapoor/RL-Humanoid)
 Hierarchical Deep Reinforcement learning inspired approach used to teach a higher order complex task (solving a maze) to a humanoid. The approach consists of two policies; a higher level maze solver policy and a lower level Humanoid mobility policy. The code base is developed using Mujoco and Roboschool, while the policy is trained in Tensorflow. {% include video id="172ujmh9wrjkPTS3eV1ZBk5_uMn9DcRSn" provider="google-drive" %}{: .align-center}
