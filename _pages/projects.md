@@ -20,39 +20,44 @@ header:
 ![demo](/images/humanoid-final-crop.gif){: .align-right .width-half}
 Hierarchical Deep Reinforcement learning inspired approach used to teach a higher order complex task (solving a maze) to a humanoid. The approach consists of two policies; a higher level maze solver policy and a lower level Humanoid mobility policy. The code base is developed using Mujoco and Roboschool, while the policy is trained in Tensorflow.
 
-<br>
+[Project](https://github.com/arpit-kapoor/RL-Humanoid){: .btn .btn--primary}
 
 <br>
+
 
 # Bayesian Machine Learning
 ---
 Various implementations of Markov Chain Monte Carlo Schemes for training Bayesian Neural Networks and other machine learning models.
 
-**[Bayesian Neural Transfer Learning](https://github.com/sydney-machine-learning/Bayesian-neural-transfer-learning)** <br>
+**Bayesian Neural Transfer Learning** <br>
 A Transfer Learning methodogy for Bayesian Neural Networks via MCMC <br>
-[Link to Paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231219314213)
+[Code](https://github.com/sydney-machine-learning/Bayesian-neural-transfer-learning){: .btn .btn--primary} [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231219314213){: .btn .btn--success}
 
-**[Surrogate-assisted Parallel Tempering for Bayesian Neural Networks](https://github.com/sydney-machine-learning/surrogate-assisted-parallel-tempering)** <br>
+**Surrogate-assisted Parallel Tempering for Bayesian Neural Networks** <br>
 Surrogate assisted multi-core parallel tempering for optimized training of Bayesian Neural Networks <br>
-[Link to Paper](https://www.sciencedirect.com/science/article/abs/pii/S0952197620301299)
+[Code](https://github.com/sydney-machine-learning/surrogate-assisted-parallel-tempering){: .btn .btn--primary} [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0952197620301299){: .btn .btn--success}
 
-**[Parallel Tempering for Bayesian Neuroevolution](https://github.com/sydney-machine-learning/evolutionary-pt)**<br>
-Multi-core implementation of Population based Bayesian neuroevolution 
+**Parallel Tempering for Bayesian Neuroevolution**<br>
+Multi-core implementation of Population based Bayesian neuroevolution <br>
+[Code](https://github.com/sydney-machine-learning/evolutionary-pt){: .btn .btn--primary}
 
-**[Multi-core Parallel Tempering Bayeslands](https://github.com/intelligentEarth/pt-Bayeslands)**<br>
-Parallel Tempering via MCMC for Badlands Geoscientific model
+**Multi-core Parallel Tempering Bayeslands**<br>
+Parallel Tempering via MCMC for Badlands Geoscientific model <br>
+[Code](https://github.com/intelligentEarth/pt-Bayeslands){: .btn .btn--primary}
 
-**[Surrogate-assisted Bayeslands](https://github.com/intelligentEarth/surrogate-pt-Bayeslands)**<br>
+**Surrogate-assisted Bayeslands**<br>
 Surrogate version of BayesLands to reduce runtime <br>
-[Link to Paper](https://gmd.copernicus.org/articles/13/2959/2020/gmd-13-2959-2020.html)
+[Code](https://github.com/intelligentEarth/surrogate-pt-Bayeslands){: .btn .btn--primary} [Paper](https://gmd.copernicus.org/articles/13/2959/2020/gmd-13-2959-2020.html){: .btn .btn--success}
 
 
 <br>
 
 # Robotics
 ---
-**[Pynamixel](https://github.com/SRM-Team-Humanoid/pynamixel)** <br>
-Python module written on top of DynamixelSDK to provide convinient interface with [Robotis Dynamixel Smart Robotic Actuators](http://www.robotis.us/dynamixel/)
+**Pynamixel** <br>
+Python module written on top of DynamixelSDK to provide convinient interface with [Robotis Dynamixel Smart Robotic Actuators](http://www.robotis.us/dynamixel/) <br>
+[Code](https://github.com/SRM-Team-Humanoid/pynamixel){: .btn .btn--primary}
 
-**[ROS Dynamixel](https://github.com/SRM-Team-Humanoid/ros_dynamixel)** <br>
-Robot Operating System (ROS) package that provides a ROS Message interface to interact with Dynamixel Actuators.
+**ROS Dynamixel** <br>
+Robot Operating System (ROS) package that provides a ROS Message interface to interact with Dynamixel Actuators <br>
+[Code](https://github.com/SRM-Team-Humanoid/ros_dynamixel){: .btn .btn--primary}
