@@ -9,6 +9,8 @@ header:
   overlay_image: /images/vancouver_crop.jpg
   caption: "Vancouver, Canada"
 ---
+
+![demo](/images/awards/Robogames17_2.jpg){: .align-right .width-half}
 I am an aspiring Data Scientist, currently working at [OoBA Labs](http://www.oobalabs.com/) where I research and develop machine learning models for an AI driven data quality solution platform.
 {: .text-justify}
 

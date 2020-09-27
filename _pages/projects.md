@@ -10,10 +10,11 @@ classes: wide
 header:
   overlay_color: "#000"
   overlay_filter: "0.75"
-  overlay_image: /images/vancouver_crop.jpg
-  caption: "Vancouver, Canada"
+  overlay_image: /images/awards/IROS17_2.jpg
+  caption: "IROS 2017, Vancouver, Canada"
 
 feature_row:
+  
   - image_path: /images/projects/teleop.gif
     alt: "Humanoid Teleoperation"
     title: Humanoid Teleoperation
@@ -21,10 +22,20 @@ feature_row:
     url: https://ieeexplore.ieee.org/document/8610719
     btn_label: "Paper"
     btn_class: "btn--success"
+  
   - image_path: /images/projects/picaso.gif
     title: Gesture controlled Robotic Arm
     alt: "Gesture controlled Robotic Arm"
     excerpt: A robot arm with 6 degrees of freedoms and can be controlled with gestures!
+
+  - image_path: /images/projects/balance.gif
+    title: Self Balancing Humanoid
+    alt: "Dynamic Lateral balance"
+    excerpt: Humanoid capable of self balancing on unstable surfaces like a suspension bridge
+    url: https://ieeexplore.ieee.org/abstract/document/8284564
+    btn_label: "Paper"
+    btn_class: "btn--success"
+
 
 ---
 
