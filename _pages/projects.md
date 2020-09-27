@@ -54,24 +54,20 @@ Hierarchical Deep Reinforcement learning inspired approach used to teach a highe
 ---
 Various implementations of Markov Chain Monte Carlo Schemes for training Bayesian Neural Networks and other machine learning models.
 
+**Parallel Tempering for Bayesian Neuroevolution**<br>
+The proven effectiveness of neuroevolution in Deep Learning ([here](https://eng.uber.com/deep-neuroevolution/)) is the motivation behind this project. This project investigates the effectiveness of multi-core implementation of parallel MCMC for population based Bayesian neuroevolution in pattern classification and time series problems.<br>
+[Code](https://github.com/sydney-machine-learning/evolutionary-pt){: .btn .btn--primary}
+
 **Bayesian Neural Transfer Learning** <br>
-A Transfer Learning methodogy for Bayesian Neural Networks via MCMC <br>
+Quantify uncertainity in Tranfer Learning with Bayesian Neural Networks trained via Markov Chain Monte Carlo <br>
 [Code](https://github.com/sydney-machine-learning/Bayesian-neural-transfer-learning){: .btn .btn--primary} [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231219314213){: .btn .btn--success}
 
 **Surrogate-assisted Parallel Tempering for Bayesian Neural Networks** <br>
-Surrogate assisted multi-core parallel tempering for optimized training of Bayesian Neural Networks <br>
+We use surrogate model to estimate the computationally expensive objective functions in Parallel Tempering to reduce the overall runtime of the MCMC sampling on large problems.<br>
 [Code](https://github.com/sydney-machine-learning/surrogate-assisted-parallel-tempering){: .btn .btn--primary} [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0952197620301299){: .btn .btn--success}
 
-**Parallel Tempering for Bayesian Neuroevolution**<br>
-Multi-core implementation of Population based Bayesian neuroevolution <br>
-[Code](https://github.com/sydney-machine-learning/evolutionary-pt){: .btn .btn--primary}
-
-**Multi-core Parallel Tempering Bayeslands**<br>
-Parallel Tempering via MCMC for Badlands Geoscientific model <br>
-[Code](https://github.com/intelligentEarth/pt-Bayeslands){: .btn .btn--primary}
-
 **Surrogate-assisted Bayeslands**<br>
-Surrogate version of BayesLands to reduce runtime <br>
+Surrogate version of BayesLands which is a Bayesian framework for [Badlands](https://github.com/badlands-model/badlands).<br>
 [Code](https://github.com/intelligentEarth/surrogate-pt-Bayeslands){: .btn .btn--primary} [Paper](https://gmd.copernicus.org/articles/13/2959/2020/gmd-13-2959-2020.html){: .btn .btn--success}
 
 
