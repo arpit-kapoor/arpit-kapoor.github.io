@@ -43,9 +43,25 @@ feature_row:
 ---
 ![demo](/images/projects/humanoid-final-crop.gif){: .align-right .width-half}
 **[Humanoid Maze Solver using Deep Reinforcement Learning](https://github.com/arpit-kapoor/RL-Humanoid)** <br>
-Hierarchical Deep Reinforcement learning inspired approach used to teach a higher order complex task (solving a maze) to a humanoid. The approach consists of two policies; a higher level maze solver policy and a lower level Humanoid mobility policy. The code base is developed using Mujoco and Roboschool, while the policy is trained in Tensorflow.
+Hierarchical Deep Reinforcement learning inspired approach used to teach a higher order complex task (solving a maze) to a humanoid. The approach consists of two policies; a higher level maze solver policy and a lower level Humanoid mobility policy. The simulation was generated in a MuJoCo environment, while the policy is trained using Tensorflow.
 
 [Project](https://github.com/arpit-kapoor/RL-Humanoid){: .btn .btn--primary}
+
+<br>
+
+# Robotics
+---
+
+{% include feature_row%}
+
+
+**Pynamixel** <br>
+Python module written on top of DynamixelSDK to provide convinient interface with [Robotis Dynamixel Smart Robotic Actuators](http://www.robotis.us/dynamixel/) <br>
+[Code](https://github.com/SRM-Team-Humanoid/pynamixel){: .btn .btn--primary}
+
+**ROS Dynamixel** <br>
+Robot Operating System (ROS) package that provides a ROS Message interface to interact with Dynamixel Actuators <br>
+[Code](https://github.com/SRM-Team-Humanoid/ros_dynamixel){: .btn .btn--primary}
 
 <br>
 
@@ -71,18 +87,3 @@ Surrogate version of BayesLands which is a Bayesian framework for [Badlands](htt
 [Code](https://github.com/intelligentEarth/surrogate-pt-Bayeslands){: .btn .btn--primary} [Paper](https://gmd.copernicus.org/articles/13/2959/2020/gmd-13-2959-2020.html){: .btn .btn--success}
 
 
-<br>
-
-# Robotics
----
-
-{% include feature_row%}
-
-
-**Pynamixel** <br>
-Python module written on top of DynamixelSDK to provide convinient interface with [Robotis Dynamixel Smart Robotic Actuators](http://www.robotis.us/dynamixel/) <br>
-[Code](https://github.com/SRM-Team-Humanoid/pynamixel){: .btn .btn--primary}
-
-**ROS Dynamixel** <br>
-Robot Operating System (ROS) package that provides a ROS Message interface to interact with Dynamixel Actuators <br>
-[Code](https://github.com/SRM-Team-Humanoid/ros_dynamixel){: .btn .btn--primary}
