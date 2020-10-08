@@ -20,5 +20,5 @@ I received my undergraduate degree in Computer Science and Engineering in 2019. 
 I previously was a research intern at Centre for Translational Data Science, The University of Sydney where I worked on research projects in Bayesian Machine Learning under the supervision of Prof Sally Cripps and Dr Rohitash Chandra.
 {: .text-justify}
 
-My interest lies in translating machine learning to practical applications in Robotics, Computer Vision, and Data Anomaly detection while quantifying the uncertainity in decision making.
+My interest lies in modelling uncertainity in decision making for practical applications in Robotics, Computer Vision, and Data Anomaly detection.
 {: .text-justify}
