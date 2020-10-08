@@ -10,16 +10,14 @@ header:
 ---
 
 ![demo](/images/awards/Robogames17_2.jpg){: .align-right .width-half}
-I am an aspiring Data Scientist, currently working at [OoBA Labs](http://www.oobalabs.com/) where I research and develop machine learning models for an AI driven data quality solution platform.
+I am Data Scientist at [3Qi Labs](http://www.3qilabs.com/). Previously, I worked as a Computer Vision Deep Learning Engineer at Bomotix (Body Motion Analytics), a startup company based in Hyderabad, India.
 {: .text-justify}
 
-<!-- I strongly believe that AI and machine learning will play a key role in the future of Data-driven technologies. Although there have been significant advances in this area, much work still remains in making these applications more robust and sustainable.
-{: .text-justify} -->
-
-I previously worked as a Deep Learning Engineer at Bomotix (Body Motion Analytics), a startup company based in Hyderabad, India. There, I was responsible for developing end-to-end Deep Learning pipelines for Computer Vision workflows involving applications like Object Detection/Tracking and Human Pose Estimation.
+I received my undergraduate degree in Computer Science and Engineering in 2019. During this period, I actively took part in humanoid robotics research at the University and presented research articles in the area of humanoid control.
 {: .text-justify}
 
-I received my undergraduate degree in Computer Science and Engineering in 2019. During this period, I actively took part in the Humanoid robotics research at the University and presented research articles in the area of humanoid control. I also actively worked on several research projects in Bayesian Machine Learning including areas like bayesian transfer learning and parallel tempering for bayesian neural networks.
+I previously was a research intern at Centre for Translational Data Science, The University of Sydney where I worked on research projects in Bayesian Machine Learning under the supervision of Prof Sally Cripps and Dr Rohitash Chandra.
 {: .text-justify}
 
-***Areas of Interest:** Machine Learning, Computer Vision, Reinforcement Learning and Robotics*
+My interest lies in translating machine learning to practical applications in Robotics, Computer Vision, and Data Anomaly detection while quantifying the uncertainity in decision making.
+{: .text-justify}
