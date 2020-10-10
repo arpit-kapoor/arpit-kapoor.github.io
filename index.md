@@ -10,7 +10,7 @@ header:
 ---
 
 ![demo](/images/awards/Robogames17_2.jpg){: .align-right .width-half}
-I am Data Scientist at [3Qi Labs](http://www.3qilabs.com/). Previously, I worked as a Computer Vision Deep Learning Engineer at Bomotix (Body Motion Analytics), a startup company based in Hyderabad, India.
+I am Data Scientist at [3Qi Labs](http://www.3qilabs.com/). Previously, I worked as a Deep Learning Engineer (Computer Vision) at Bomotix (Body Motion Analytics), a startup company based in Hyderabad, India.
 {: .text-justify}
 
 I received my undergraduate degree in Computer Science and Engineering in 2019. During this period, I actively took part in humanoid robotics research at the University and presented research articles in the area of humanoid control.

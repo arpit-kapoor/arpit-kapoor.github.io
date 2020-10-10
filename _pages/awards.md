@@ -20,7 +20,7 @@ feature_row:
     excerpt: '<p style="text-align: center;">One Gold, Two Silver, and One Bronze medal in the Humanoid League, International Robogames, <br>San Francisco, USA, <br>April 2017</p>'
   - image_path: /images/awards/SydneyWorkshop.jpg
     alt: "USyd"
-    excerpt: '<p style="text-align: center;">Organised the Bayesian Machine Learning Workshop at Centre of Transalational Data Science, <br>University of Sydney, <br>July 2018 </p>'
+    excerpt: '<p style="text-align: center;">Winter Research Intern at Centre of Transalational Data Science, <br>University of Sydney, <br>May 2018 </p>'
 
 ---
 <p style="text-align: center; font-size:42px;"> Notable Achievements </p>
