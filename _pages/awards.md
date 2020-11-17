@@ -1,13 +1,13 @@
 ---
-title: "Honors and Achievements"
+# title: "Honors and Achievements"
 layout: splash
 permalink: "/awards/"
 author_profile: true
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.75"
-  overlay_image: /images/vancouver_crop.jpg
-  caption: "Vancouver, Canada"
+# header:
+#   overlay_color: "#000"
+#   overlay_filter: "0.75"
+#   overlay_image: /images/vancouver_crop.jpg
+#   caption: "Vancouver, Canada"
 # excerpt: ""
 # intro: 
 #   - excerpt: 'Most notable awards an achievements'

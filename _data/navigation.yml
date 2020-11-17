@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
-  # - title: "Experience"
-  #   url: "/experience/"
-  - title: "Publications"
-    url: /publications/
+  # - title: "About"
+  #   url: /about/
+  - title: "Experience"
+    url: "/experience/"
+  - title: "Research"
+    url: /research/
   - title: "Projects"
     url: /projects/
   - title: "Awards"

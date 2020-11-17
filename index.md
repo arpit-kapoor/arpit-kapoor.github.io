@@ -1,22 +1,22 @@
 ---
-title: "About Me"
 layout: archive
-author_profile: true
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.75"
-  overlay_image: /images/vancouver_crop.jpg
-  caption: "Vancouver, Canada"
+author_profile: false
+# header:
+#   overlay_color: "#000"
+#   overlay_filter: "0.75"
+#   overlay_image: /images/vancouver_crop.jpg
+#   caption: "Vancouver, Canada"
 ---
+<p style="text-align: center; font-size:24px;"> Hi There! </p>
 
-![demo](/images/awards/Robogames17_2.jpg){: .align-right .width-half}
-I am Data Scientist at [3Qi Labs](http://www.3qilabs.com/). Previously, I worked as a Deep Learning Engineer (Computer Vision) at Bomotix (Body Motion Analytics), a startup company based in Hyderabad, India.
+![demo](/images/awards/Robogames17_2.jpg){: .align-right .width-quarter}
+I am a Data Scientist at **[3Qi Labs](http://www.3qilabs.com/)**. Previously, I worked as a Deep Learning Engineer (Computer Vision) at Bomotix (Body Motion Analytics), a startup company based in Hyderabad, India.
 {: .text-justify}
 
 I received my undergraduate degree in Computer Science and Engineering in 2019. During this period, I actively took part in humanoid robotics research at the University and presented research articles in the area of humanoid control.
 {: .text-justify}
 
-I previously was a research intern at Centre for Translational Data Science, The University of Sydney where I worked on research projects in Bayesian Machine Learning under the supervision of Prof Sally Cripps and Dr Rohitash Chandra.
+I previously was a research intern at Centre for Translational Data Science, The University of Sydney where I worked on research projects in Bayesian Machine Learning under the supervision of Prof Sally Cripps and **[Dr Rohitash Chandra](https://research.unsw.edu.au/people/dr-rohitash-chandra)**.
 {: .text-justify}
 
 My interest lies in modelling uncertainity in decision making for practical applications in Robotics, Computer Vision, and Data Anomaly detection.

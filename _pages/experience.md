@@ -1,17 +1,17 @@
 ---
-title: "Experience"
+# title: "Experience"
 permalink: /experience/
 layout: single
 # classes: wide
-toc: true
-toc_label: "Experience"
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.75"
-  overlay_image: /images/vancouver_crop.jpg
-  caption: "Vancouver, Canada"
+# toc: true
+# toc_label: "Experience"
+# header:
+#   overlay_color: "#000"
+#   overlay_filter: "0.75"
+#   overlay_image: /images/vancouver_crop.jpg
+#   caption: "Vancouver, Canada"
 ---
-
+<p style="text-align: center; font-size:42px;"></p>
 ## OoBA Labs, Hyderabad— *Data Scientist*
 *NOV 2019 - Present*
 
