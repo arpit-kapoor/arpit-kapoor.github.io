@@ -94,8 +94,8 @@ analytics:
 # Site Author
 author:
   name             : "Arpit Kapoor"
-  avatar           : "/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Scientist"
+  avatar           : "/images/profile.jpg"
+  bio              : "Social Profile"
   location         : "Hyderabad, India"
   email            : "kapoor.arpit97@gmail.com"
   links:
@@ -113,7 +113,7 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/theArpitKapoor"
+      # url: "https://twitter.com/theArpitKapoor"
     - label: "Scholar"
       icon: "fab fa-fw fa-google"
       url: "https://scholar.google.com/citations?user=2caOA5wAAAAJ&hl=en"

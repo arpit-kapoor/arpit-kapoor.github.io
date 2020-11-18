@@ -2,12 +2,12 @@
 main:
   # - title: "About"
   #   url: /about/
-  - title: "Experience"
-    url: "/experience/"
   - title: "Research"
     url: /research/
   - title: "Projects"
     url: /projects/
+  - title: "Experience"
+    url: "/experience/"
   - title: "Awards"
     url: /awards/
   - title: "CV"

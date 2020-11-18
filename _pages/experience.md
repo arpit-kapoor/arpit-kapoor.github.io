@@ -2,6 +2,7 @@
 # title: "Experience"
 permalink: /experience/
 layout: single
+author_profile: false
 # classes: wide
 # toc: true
 # toc_label: "Experience"

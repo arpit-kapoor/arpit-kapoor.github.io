@@ -1,5 +1,5 @@
 ---
-# title: "Publications"
+# title: "Research"
 author_profile: false
 layout: archive
 permalink: /research/
@@ -10,10 +10,8 @@ permalink: /research/
 #   overlay_image: /images/awards/Robogames17_4.jpg
 #   caption: "Robogames 2017, San Francisco, USA"
 ---
-
 <p style="text-align: center; font-size:42px;"> Research </p>
-
-<p style="text-align: left; font-size:24px;"> Ongoing Work </p>
+<p style="text-align: left; font-size:24px;"> Work in Progress </p>
  - Bayesian neuroevolution: synergy of swarm optimisation with tempered MCMC viaparallel computing. *Neurocomputing* in Nov 2020.
 
  <br>

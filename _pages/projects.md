@@ -1,7 +1,7 @@
 ---
-# title: ""
-excerpt: "Links to open-source machine learning and robotics software repositories developed as part of research projects"
-layout: single
+# title: "Projects and Open-source Software"
+# excerpt: Links to open-source machine learning and robotics software repositories developed as part of research projects
+layout: splash
 permalink: /projects/
 author_profile: false
 # toc_label: "Projects"
@@ -37,28 +37,28 @@ feature_row:
 
 
 ---
-<p style="text-align: center; font-size:42px;"> Projects and Open-source Software </p>
+<p style="text-align: center; font-size:42px;"> Projects </p>
 
-<p style="text-align: left; font-size:24px;"> <b> Undergraduate Final Year Thesis </b> </p> 
 ---
-![demo](/images/projects/humanoid-final-crop.gif){: .align-right .width-half}
+<p style="text-align: center; font-size:24px;"> <b> Undergraduate Final Year Thesis </b> </p> 
+
 **Humanoid Maze Solver using Deep Reinforcement Learning** <br>
-Hierarchical Deep Reinforcement learning inspired approach used to teach a higher order complex task (solving a maze) to a humanoid. The approach consists of two policies; a higher level maze solver policy and a lower level Humanoid mobility policy. The simulation was generated in a MuJoCo environment, while the policy is trained using Tensorflow.
+A Deep Reinforcement learning inspired approach used to teach a higher order complex task (solving a maze) to a humanoid. The approach consists of two policies; a higher level maze solver policy and a lower level Humanoid mobility policy. The simulation was generated in a MuJoCo environment, while the policy is trained using Tensorflow.
 
 [Project](https://github.com/arpit-kapoor/RL-Humanoid){: .btn .btn--primary}
 
+![demo](/images/projects/humanoid-final-crop.gif){:.align-center .width-quarter}
+
 <br>
 
-
-<p style="text-align: left; font-size:24px;"> <b>Humanoid Robotics</b> </p> 
 ---
+<p style="text-align: center; font-size:24px;"> <b>Humanoid Robotics</b> </p> 
 
 {% include feature_row%}
 
 <br>
 
-<p style="text-align: left; font-size:24px;"> <b>Bayesian Machine Learning</b> </p> 
----
+<p style="text-align: center; font-size:24px;"> <b>Bayesian Machine Learning</b> </p> 
 Various implementations of Markov Chain Monte Carlo Schemes for training Bayesian Neural Networks and other machine learning models.
 
 **Parallel Tempering for Bayesian Neuroevolution**<br>
@@ -79,9 +79,10 @@ Surrogate version of BayesLands which is a Bayesian framework for [Badlands](htt
 
 <br>
 
-<p style="text-align: left; font-size:24px;"> <b> Software Packages </b></p> 
----
+<br>
 
+---
+<p style="text-align: center; font-size:24px;"> <b> Software Packages </b></p> 
 **Pynamixel** <br>
 Python module written on top of DynamixelSDK to provide convinient interface with [Robotis Dynamixel Smart Robotic Actuators](http://www.robotis.us/dynamixel/) <br>
 [Code](https://github.com/SRM-Team-Humanoid/pynamixel){: .btn .btn--primary}
