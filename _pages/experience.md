@@ -23,7 +23,7 @@ I have worked extensively with machine learning and data mining tools on Big Dat
 
 As a machine learning developer, my job involved end-to-end developeent and deployment of various Deep Learning pipelines in Apache MxNet using Kubernetes and Docker containers. Object detection, object tracking and human pose estimation are a few of the Computer vision problems I worked on during this period. Moreover, I developed new procedures for requirements gathering, testing, scripting and documentation to strengthen quality and functionality of these applications.
 
-## The University of Sydney, NSW Australia— Research Intern (Machine Learning)
+## The University of Sydney, NSW Australia— *Research Intern (Machine Learning)*
 *JUN 2018 - AUG 2018*
 
 During my internship, I worked with *Dr Rohitash Chandra* and *Prof Sally Cripps* on various research projects in the area of Bayesian machine learning. I worked on method formulation for training Neural Networks using MCMC sampling schemes. As an outcome of this internship, I learnt the principles of Bayesian Machine learning and how it can be used effectively to train neural networks. Three of our research papers are now published in Top tier Journals. I continue to work with Dr Chandra on various Research projects involving Neuroevolution via MCMC.
