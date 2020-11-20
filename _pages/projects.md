@@ -39,7 +39,6 @@ feature_row:
 ---
 <p style="text-align: center; font-size:42px;"> Projects </p>
 
----
 <p style="text-align: center; font-size:24px;"> <b> Undergraduate Final Year Thesis </b> </p> 
 
 **Humanoid Maze Solver using Deep Reinforcement Learning** <br>
