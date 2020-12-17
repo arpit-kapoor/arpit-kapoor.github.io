@@ -1,7 +1,7 @@
 ---
 # title: "Projects and Open-source Software"
 # excerpt: Links to open-source machine learning and robotics software repositories developed as part of research projects
-# layout: 
+layout: archive
 permalink: /projects/
 author_profile: false
 # toc_label: "Projects"
