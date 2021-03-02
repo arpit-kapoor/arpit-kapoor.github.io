@@ -7,7 +7,7 @@ author_profile: true
 #   overlay_image: /images/vancouver_crop.jpg
 #   caption: "Vancouver, Canada"
 ---
-<p style="text-align: center; font-size:24px;"> Hello! </p>
+<p style="text-align: center; font-size:24px;"> Hi, there! </p>
 
 ![demo](/images/awards/Robogames17_2.jpg){: .align-right .width-quarter}
 I am a Data Scientist at **[3Qi Labs](http://www.3qilabs.com/)**. Previously, I worked as a Deep Learning Engineer (Computer Vision) at Bomotix (Body Motion Analytics), a startup company based in Hyderabad, India.
