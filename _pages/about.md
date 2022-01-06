@@ -10,6 +10,7 @@ author_profile: false
 #   caption: "Vancouver, Canada"
 ---
 
+
 ![demo](/images/awards/Robogames17_2.jpg){: .align-right .width-quarter}
 I am Data Scientist at [3Qi Labs](http://www.3qilabs.com/). Previously, I worked as a Deep Learning Engineer (Computer Vision) at Bomotix (Body Motion Analytics), a startup company based in Hyderabad, India.
 {: .text-justify}
