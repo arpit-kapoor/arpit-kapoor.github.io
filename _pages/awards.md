@@ -29,6 +29,8 @@ feature_row:
 
 <p style="text-align: center; font-size:42px;"> Other Honors </p>
 
+ - Research training (PhD) grant from ARC Training Centre in Data Analytics for Resources and Environments (DARE)
+ - University International Postgraduate Award; received scholarship against PhD studies at the University of New South Wales, Sydney, Australia
  - Research Internship grant; received fully funded 3 months Research Internship at Centre for Translational Data Science, The University of Sydney, New South Wales, Australia
  - Published three Research Articles on Bayesian Deep Learning via MCMC in reputed Journals including, Neurocomputing, and IEEE Engineering Applications of Artificial Intelligence, etc.
  - WAT Consult Best Innovation Award, 2017, Atmos Techfest, BITS Pilani Hyderabad Campus, Hyderabad, India

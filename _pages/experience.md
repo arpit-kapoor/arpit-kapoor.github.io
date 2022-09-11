@@ -12,9 +12,18 @@ author_profile: false
 #   overlay_image: /images/vancouver_crop.jpg
 #   caption: "Vancouver, Canada"
 ---
+
 <p style="text-align: center; font-size:42px;"></p>
-## OoBA Labs, Hyderabad— *Data Scientist*
-*NOV 2019 - Present*
+## Quince, Hyderabad— *Data Scientist-2*
+*MAR 2022 - AUG 2022*
+
+Worked on data science use cases for improving customer retention by identifying key drivers of repeat behaviour. Built and deployed regressive tree models for predicting and optimising logistics cost in online retail. Interpreted model predictions using Explanable AI (XAI) methods (SHAP and LIME).
+
+
+
+<p style="text-align: center; font-size:42px;"></p>
+## 3Qi Labs, Hyderabad— *Data Scientist*
+*NOV 2019 - NOV 2021*
 
 I have worked extensively with machine learning and data mining tools on Big Data technologies to generate insights into the data. My current project includes developing Deep Learning model to detect issues in data such as referential integrity failure and outlier detection. I am also responsible for generating insights into the data using Exploratory data analysis and Visualisation tools. Furthermore, my responsibilities include analysing code for system testing, debugging and created test transactions to find, isolate and rectify issues. Tensorflow, Elasticsearch, Kibana, Hadoop, and Tableau are few of the other tools I work with extensively.
 

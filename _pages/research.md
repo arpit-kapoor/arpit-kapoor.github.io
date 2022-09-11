@@ -12,11 +12,15 @@ permalink: /research/
 ---
 <p style="text-align: center; font-size:42px;"> Research </p>
 <p style="text-align: left; font-size:24px;"> Work in Progress </p>
- - Bayesian neuroevolution: synergy of swarm optimisation with tempered MCMC viaparallel computing. *Neurocomputing* in Nov 2020.
+ - Cyclone trajectory and intensity prediction with uncertainty quantification using
+variational recurrent neural networks
 
  <br>
 
 <p style="text-align: left; font-size:24px;"> Journal Publications </p> 
+
+ - Bayesian neuroevolution using distributed swarm optimization and tempered MCMC. *Applied Soft Computing (2022)*: 109528. <br>
+ \[**[Publisher Page](https://www.sciencedirect.com/science/article/pii/S1568494622006056), [PDF](https://github.com/arpit-kapoor/Research/raw/main/2022/Kapoor_ASOC2022.pdf)**\]
 
  - Surrogate-assisted Bayesian inversion for landscape and basin evolution models. *Geoscientific Model Development Discussions*, 1-28. <br>
  \[**[Publisher Page](https://gmd.copernicus.org/articles/13/2959/2020/gmd-13-2959-2020.html), [PDF](https://github.com/arpit-kapoor/Research/raw/main/2020/Chandra_GMD2020.pdf)**\]

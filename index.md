@@ -10,14 +10,13 @@ author_profile: true
 <p style="text-align: center; font-size:24px;"> Hi, there! </p>
 
 ![demo](/images/awards/Robogames17_2.jpg){: .align-right .width-quarter}
-I am a Data Scientist at **[3Qi Labs](http://www.3qilabs.com/)**. Previously, I worked as a Deep Learning Engineer (Computer Vision) at Bomotix (Body Motion Analytics), a startup company based in Hyderabad, India.
+I am a PhD candidate at the University of New South Wales, Sydney, Australia and **[ARC Training Centre in Data Analytics for Resources and Environment (DARE)](https://darecentre.org.au/portfolio_page/arpit-kapoor/)** currently supervised by **[Dr Rohitash Chandra](https://research.unsw.edu.au/people/dr-rohitash-chandra)** and **[Professor Lucy Marshall](https://www.unsw.edu.au/staff/lucy-marshall)**. Previously, I worked as a Data Scientist at [Quince](https://www.onequince.com/), an online retail start-up based in the United States. 
+
+I hold 4 years of experience in research and development of data-intensive AI/ML applications overcoming complex architectural and scalability issues in diverse industries. I received my undergraduate degree in Computer Science and Engineering in 2019. During this period, I actively took part in **[humanoid robotics research](https://www.srmist.edu.in/students-gateway/about-us-humanoid)** at the University and presented research articles in the area of humanoid control.
 {: .text-justify}
 
-I received my undergraduate degree in Computer Science and Engineering in 2019. During this period, I actively took part in **[humanoid robotics research](https://www.srmist.edu.in/students-gateway/about-us-humanoid)** at the University and presented research articles in the area of humanoid control.
-{: .text-justify}
+<!-- I previously was a machine learning research intern at The University of Sydney where I worked on research projects in Bayesian Machine Learning under the supervision of Prof Sally Cripps and **[Dr Rohitash Chandra](https://research.unsw.edu.au/people/dr-rohitash-chandra)**. I continue to remotely collaborate with Dr Chandra on various research projects.
+{: .text-justify} -->
 
-I previously was a machine learning research intern at The University of Sydney where I worked on research projects in Bayesian Machine Learning under the supervision of Prof Sally Cripps and **[Dr Rohitash Chandra](https://research.unsw.edu.au/people/dr-rohitash-chandra)**. I continue to remotely collaborate with Dr Chandra on various research projects.
-{: .text-justify}
-
-My interest lies in modelling uncertainity in decision making for practical applications in Robotics, Computer Vision, and Data Anomaly detection.
+My interest lies in modelling uncertainity in decision making through Machine Learning for practical applications in Hydrology, Environment, Robotics, and Computer Vision etc.
 {: .text-justify}

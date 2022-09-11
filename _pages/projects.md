@@ -42,10 +42,18 @@ feature_row:
 <p style="text-align: center; font-size:24px;"> <b>Bayesian Machine Learning</b> </p> 
 Various implementations of Markov Chain Monte Carlo Schemes for training Bayesian Neural Networks and other machine learning models.
 
-![BNTL](/images/projects/evo-mcmc.jpg){:.align-left .width-thirty}
+![VaRNN](/images/projects/BRNN-Network.jpg){:.align-left .width-thirty}
+**Variational Recurrent Neural Networks (VaRNN)**<br>
+VaRNN provides implementation of Variational Bayes algorithm (inspired by [bayes-by-backprop](https://proceedings.mlr.press/v37/blundell15.html)) for RNN models including Long Short-term Memory models. We apply these models for prediction of cyclone tracks and intensities in data provided by Joint Typhoon Warning Center (JTWC).<br>
+[Code](https://github.com/DARE-ML/variational-rnn-cyclones){: .btn .btn--primary .align-right}
+
+<br>
+
+
+![EVO](/images/projects/evo-mcmc.jpg){:.align-left .width-thirty}
 **Parallel Tempering for Bayesian Neuroevolution**<br>
 The proven effectiveness of neuroevolution in Deep Learning ([here](https://eng.uber.com/deep-neuroevolution/)) is the motivation behind this project. This project investigates the effectiveness of multi-core implementation of parallel MCMC for population based Bayesian neuroevolution in pattern classification and time series problems.<br>
-[Code](https://github.com/sydney-machine-learning/evolutionary-pt){: .btn .btn--primary .align-right}
+[Code](https://github.com/sydney-machine-learning/pt-bayesian-neuroevolution){: .btn .btn--primary .align-right} [Paper](https://www.sciencedirect.com/science/article/pii/S1568494622006056){: .btn .btn--success .align-right}
 
 <br>
 
