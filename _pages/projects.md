@@ -76,8 +76,7 @@ We use surrogate model to estimate the computationally expensive objective funct
 
 ![Surrogate-Bayeslands](/images/projects/cm_final.png){:.align-left .width-thirty}
 **Surrogate-assisted Parallel Tempering Bayeslands**<br>
-Surrogate version of BayesLands which is a Bayesian framework for
-[Badlands](https://github.com/badlands-model/badlands), a landscape topography evolution model.<br>
+Surrogate-assited tempered MCMC algorithm for parallelized Bayesian inference for parameters of a landscape topography evolution model called [Badlands](https://github.com/badlands-model/badlands)<br>
 [Code](https://github.com/intelligentEarth/surrogate-pt-Bayeslands){: .btn .btn--primary .align-right} [Paper](https://gmd.copernicus.org/articles/13/2959/2020/gmd-13-2959-2020.html){: .btn .btn--success .align-right}
 
 <br>

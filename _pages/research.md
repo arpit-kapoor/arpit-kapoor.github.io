@@ -13,7 +13,8 @@ permalink: /research/
 <p style="text-align: center; font-size:42px;"> Research </p>
 <p style="text-align: left; font-size:24px;"> Work in Progress </p>
  - Cyclone trajectory and intensity prediction with uncertainty quantification using
-variational recurrent neural networks
+variational recurrent neural networks <br>
+\[**[Abstract](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4283622)**\]
 
  <br>
 
