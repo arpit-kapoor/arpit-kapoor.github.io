@@ -12,13 +12,14 @@ permalink: /research/
 ---
 <p style="text-align: center; font-size:42px;"> Research </p>
 <p style="text-align: left; font-size:24px;"> Work in Progress </p>
- - Cyclone trajectory and intensity prediction with uncertainty quantification using
-variational recurrent neural networks <br>
-\[**[Abstract](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4283622)**\]
-
- <br>
+- Incorporating deep learning into conceptual rainfall-runoff model: A sub-model
+hybridization approach. <br>
 
 <p style="text-align: left; font-size:24px;"> Journal Publications </p> 
+
+- Cyclone trajectory and intensity prediction with uncertainty quantification using variational recurrent neural networks. *Environmental Modelling & Software (2023)*: 105654. <br>
+\[**[Publisher Page](https://www.sciencedirect.com/science/article/abs/pii/S1364815223000403), [PDF](https://github.com/arpit-kapoor/Research/raw/main/2023/Kapoor_EMS2023.pdf)**\]
+
 
  - Bayesian neuroevolution using distributed swarm optimization and tempered MCMC. *Applied Soft Computing (2022)*: 109528. <br>
  \[**[Publisher Page](https://www.sciencedirect.com/science/article/pii/S1568494622006056), [PDF](https://github.com/arpit-kapoor/Research/raw/main/2022/Kapoor_ASOC2022.pdf)**\]

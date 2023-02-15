@@ -45,7 +45,7 @@ Various implementations of Markov Chain Monte Carlo Schemes for training Bayesia
 ![VaRNN](/images/projects/BRNN-Network.jpg){:.align-left .width-thirty}
 **Variational Recurrent Neural Networks (VaRNN)**<br>
 VaRNN provides implementation of Variational Bayes algorithm (inspired by [bayes-by-backprop](https://proceedings.mlr.press/v37/blundell15.html)) for RNN models including Long Short-term Memory models. We apply these models for prediction of cyclone tracks and intensities in data provided by Joint Typhoon Warning Center (JTWC).<br>
-[Code](https://github.com/DARE-ML/variational-rnn-cyclones){: .btn .btn--primary .align-right}
+[Code](https://github.com/DARE-ML/variational-rnn-cyclones){: .btn .btn--primary .align-right} [Paper](https://www.sciencedirect.com/science/article/abs/pii/S1364815223000403){: .btn .btn--success .align-right}
 
 <br>
 
