@@ -12,10 +12,13 @@ permalink: /research/
 ---
 <p style="text-align: center; font-size:42px;"> Research </p>
 <p style="text-align: left; font-size:24px;"> Work in Progress </p>
-- Incorporating deep learning into conceptual rainfall-runoff model: A sub-model
-hybridization approach. <br>
+- Fourier Neural Operators (FNO) for hydrological modelling <br>
+- Regionalising hybrid rainfall-runoff models <br>
 
-<p style="text-align: left; font-size:24px;"> Journal Publications </p> 
+<p style="text-align: left; font-size:24px;"> Journal Publications </p>
+
+- DeepGR4J: A deep learning hybridization approach for conceptual rainfall-runoff modelling. Environmental Modelling & Software, 169, 105831. <br>
+\[**[Publisher Page](https://www.sciencedirect.com/science/article/pii/S1364815223002177), [PDF](https://github.com/arpit-kapoor/Research/raw/main/2023/Kapoor_EMS2023-DeepGR4J.pdf)**\]
 
 - Cyclone trajectory and intensity prediction with uncertainty quantification using variational recurrent neural networks. *Environmental Modelling & Software (2023)*: 105654. <br>
 \[**[Publisher Page](https://www.sciencedirect.com/science/article/abs/pii/S1364815223000403), [PDF](https://github.com/arpit-kapoor/Research/raw/main/2023/Kapoor_EMS2023.pdf)**\]
