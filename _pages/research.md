@@ -1,16 +1,16 @@
 ---
-# title: "Research"
-author_profile: false
+title: "Research"
+author_profile: true
 layout: archive
 permalink: /research/
-# classes: wide
-# header:
-#   overlay_color: "#000"
-#   overlay_filter: "0.70"
-#   overlay_image: /images/awards/Robogames17_4.jpg
-#   caption: "Robogames 2017, San Francisco, USA"
+classes: wide
+header:
+  overlay_color: "#111"
+  overlay_filter: "0.50"
+  overlay_image: /images/header/berry.jpg
+  caption: "Berry, NSW, Australia"
 ---
-<p style="text-align: center; font-size:42px;"> Research </p>
+<!-- <p style="text-align: center; font-size:42px;"> Research </p> -->
 <p style="text-align: left; font-size:24px;"> Work in Progress </p>
 - Fourier Neural Operators (FNO) for hydrological modelling <br>
 - A quantile regression based deep learning hybridization of hydrological model for modelling extreme flows<br>

@@ -3,17 +3,17 @@
 # excerpt: Links to open-source machine learning and robotics software repositories developed as part of research projects
 layout: archive
 permalink: /projects/
-author_profile: false
-# toc_label: "Projects"
+author_profile: true
+title: "Projects"
 # classes: wide
-# header:
-#   overlay_color: "#000"
-#   overlay_filter: "0.75"
-#   overlay_image: /images/awards/IROS17_2.jpg
-#   caption: "IROS 2017, Vancouver, Canada"
+header:
+  overlay_color: "#111"
+  overlay_filter: "0.5"
+  overlay_image: /images/header/cradle.jpg
+  caption: "Cradle Mountain, Tasmania, Australia"
 
 feature_row:
-  
+
   - image_path: /images/projects/teleop.gif
     alt: "Humanoid Teleoperation"
     title: Humanoid Teleoperation
@@ -37,7 +37,7 @@ feature_row:
 
 
 ---
-<p style="text-align: center; font-size:42px;"> Projects </p>
+<!-- <p style="text-align: center; font-size:42px;"> Projects </p> -->
 
 <p style="text-align: center; font-size:24px;"> <b>Deep Learning for Resources and Environments</b> </p> 
 Applied research focusing on applying machine learning and deep learning for resource and environmental modelling

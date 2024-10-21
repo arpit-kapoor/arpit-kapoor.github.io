@@ -1,17 +1,24 @@
 ---
-# title: "Experience"
+title: "Experience"
 permalink: /experience/
 layout: single
-author_profile: false
-# classes: wide
+author_profile: true
+classes: wide
 # toc: true
 # toc_label: "Experience"
-# header:
-#   overlay_color: "#000"
-#   overlay_filter: "0.75"
-#   overlay_image: /images/vancouver_crop.jpg
-#   caption: "Vancouver, Canada"
+header:
+  overlay_color: "#111"
+  overlay_filter: "0.50"
+  overlay_image: /images/header/bruny_cruise.jpg
+  caption: "Bruny Island, Tasmania, Australia"
 ---
+
+<p style="text-align: center; font-size:42px;"></p>
+## Australian Bureau of Meteorology, Sydney *Data Scientist-2*
+*FEB 2023 - PRESENT*
+
+Worked on implementation of multivariate bias correction method -- Multivariate Recursive Nested Bias Correction (MRNBC) for the Australian Climate Service. Developed a Python wrapper for the MRNBC bias correction method originally written in FORTRAN. Later, implemented a parallel framework for execution of bias correctio on large-scale climate datasets using Dask parallelization on NCI Gadi.
+
 
 <p style="text-align: center; font-size:42px;"></p>
 ## Quince, Hyderabad— *Data Scientist-2*
