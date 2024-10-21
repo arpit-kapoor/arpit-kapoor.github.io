@@ -2,7 +2,7 @@
 title: "About Me"
 permalink: /about/
 layout: archive
-author_profile: false
+author_profile: true
 header:
   overlay_color: "#111"
   overlay_filter: "0.50"
