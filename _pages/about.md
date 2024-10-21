@@ -1,13 +1,13 @@
 ---
-# title: "About Me"
+title: "About Me"
 permalink: /about/
 layout: archive
 author_profile: false
-# header:
-#   overlay_color: "#000"
-#   overlay_filter: "0.75"
-#   overlay_image: /images/vancouver_crop.jpg
-#   caption: "Vancouver, Canada"
+header:
+  overlay_color: "#111"
+  overlay_filter: "0.50"
+  overlay_image: /images/header/leaves.jpg
+  caption: "UNSW, Sydney"
 ---
 
 
