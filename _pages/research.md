@@ -13,7 +13,7 @@ permalink: /research/
 <p style="text-align: center; font-size:42px;"> Research </p>
 <p style="text-align: left; font-size:24px;"> Work in Progress </p>
 - Fourier Neural Operators (FNO) for hydrological modelling <br>
-- Regionalising hybrid rainfall-runoff models <br>
+- A quantile regression based deep learning hybridization of hydrological model for modelling extreme flows<br>
 
 <p style="text-align: left; font-size:24px;"> Journal Publications </p>
 
