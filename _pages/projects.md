@@ -39,6 +39,16 @@ feature_row:
 ---
 <p style="text-align: center; font-size:42px;"> Projects </p>
 
+<p style="text-align: center; font-size:24px;"> <b>Deep Learning for Resources and Environments</b> </p> 
+Applied research focusing on applying machine learning and deep learning for resource and environmental modelling
+
+![DeepGR4J](/images/projects/DeepGR4J.jpg){:.align-left .width-thirty}
+**DeepGR4J**<br>
+A synergy of Conceptual hydrological model GR4J and Convolutional Neural Network (CNN) and Long Short-term Memory (LSTM) neural networks for improved prediction performance in streamflow prediction tasks..<br>
+[Code](https://github.com/arpit-kapoor/hybrid-gr4j){: .btn .btn--primary .align-right} [Paper](https://www.sciencedirect.com/science/article/pii/S1364815223002177){: .btn .btn--success .align-right}
+
+<br>
+
 <p style="text-align: center; font-size:24px;"> <b>Bayesian Machine Learning</b> </p> 
 Various implementations of Markov Chain Monte Carlo Schemes for training Bayesian Neural Networks and other machine learning models.
 
