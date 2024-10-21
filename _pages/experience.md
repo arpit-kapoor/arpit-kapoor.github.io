@@ -14,7 +14,7 @@ header:
 ---
 
 <p style="text-align: center; font-size:42px;"></p>
-## Australian Bureau of Meteorology, Sydney *Data Scientist-2*
+## Australian Bureau of Meteorology, Sydney *Research Suppport Scientist*
 *FEB 2023 - PRESENT*
 
 Worked on implementation of multivariate bias correction method -- Multivariate Recursive Nested Bias Correction (MRNBC) for the Australian Climate Service. Developed a Python wrapper for the MRNBC bias correction method originally written in FORTRAN. Later, implemented a parallel framework for execution of bias correctio on large-scale climate datasets using Dask parallelization on NCI Gadi.
