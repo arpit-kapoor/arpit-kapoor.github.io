@@ -22,3 +22,5 @@ I hold 4 years of experience in research and development of data-intensive AI/ML
 
 My interest lies in modelling uncertainity in decision making through Machine Learning for practical applications in Hydrology, Environment, Robotics, and Computer Vision etc.
 {: .text-justify}
+
+Email: arpit.kapoor@unsw.edu.au
