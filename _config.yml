@@ -96,8 +96,8 @@ author:
   name             : "Arpit Kapoor"
   avatar           : "/images/profile.jpg"
   bio              : "Social Profile"
-  location         : "Hyderabad, India"
-  email            : "kapoor.arpit97@gmail.com"
+  location         : "Sydney, Australia"
+  email            : "arpit.kapoor@unsw.edu.au"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
