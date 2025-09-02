@@ -616,7 +616,8 @@
         /* Black cards in bluish sections (bg-light) for dark mode */
         [data-theme="dark"] .section.bg-light .card-custom,
         [data-theme="dark"] .section.bg-light .award-card,
-        [data-theme="dark"] .section.bg-light .achievement-item {
+        [data-theme="dark"] .section.bg-light .achievement-item,
+        [data-theme="dark"] .section.bg-light .timeline-content {
             background: linear-gradient(145deg, #1a1a1a, #2c2c2c);
             border: 1px solid rgba(116, 185, 255, 0.3);
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(116, 185, 255, 0.2);
@@ -624,9 +625,17 @@
 
         [data-theme="dark"] .section.bg-light .card-custom:hover,
         [data-theme="dark"] .section.bg-light .award-card:hover,
-        [data-theme="dark"] .section.bg-light .achievement-item:hover {
+        [data-theme="dark"] .section.bg-light .achievement-item:hover,
+        [data-theme="dark"] .section.bg-light .timeline-content:hover {
             box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(116, 185, 255, 0.4);
             border-color: rgba(116, 185, 255, 0.4);
+        }
+
+        /* Timeline markers in dark mode for bg-light sections */
+        [data-theme="dark"] .section.bg-light .timeline-marker {
+            background: #74b9ff;
+            border-color: #1a1a1a;
+            box-shadow: 0 0 0 4px #74b9ff;
         }
 
         /* Dark overlays for project images in dark mode */
