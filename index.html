@@ -167,7 +167,7 @@
 
         .about-profile-image {
             width: 380px;
-            height: 600px;
+            height: auto; /* Will be set dynamically */
             border-radius: 20px;
             border: 4px solid rgba(116, 185, 255, 0.3);
             box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
@@ -811,7 +811,7 @@
 
             .about-profile-image {
                 width: 280px;
-                height: 420px;
+                height: auto; /* Will be set dynamically */
                 margin-top: 2rem;
             }
         }
@@ -1472,6 +1472,25 @@
         var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
             return new bootstrap.Tooltip(tooltipTriggerEl);
         });
+
+        // Dynamic height matching for profile image
+        function matchImageHeight() {
+            const aboutTextColumn = document.querySelector('#about .col-lg-8');
+            const profileImage = document.querySelector('.about-profile-image');
+            
+            if (aboutTextColumn && profileImage) {
+                // Wait for layout to be complete
+                setTimeout(() => {
+                    const textHeight = aboutTextColumn.offsetHeight;
+                    profileImage.style.height = textHeight + 'px';
+                }, 100);
+            }
+        }
+
+        // Call on page load and resize
+        document.addEventListener('DOMContentLoaded', matchImageHeight);
+        window.addEventListener('resize', matchImageHeight);
+        window.addEventListener('load', matchImageHeight);
 
         // Theme Toggle Functionality
         const themeToggle = document.getElementById('themeToggle');
