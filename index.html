@@ -166,18 +166,20 @@
         }
 
         .about-profile-image {
-            width: 250px;
-            height: 250px;
-            border-radius: 50%;
-            border: 6px solid rgba(116, 185, 255, 0.3);
+            width: 280px;
+            height: 280px;
+            border-radius: 20px;
+            border: 4px solid rgba(116, 185, 255, 0.3);
             box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
             animation: profileFloat 6s ease-in-out infinite;
             transition: all 0.3s ease;
+            object-fit: cover;
         }
 
         .about-profile-image:hover {
             transform: scale(1.05);
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+            border-color: rgba(116, 185, 255, 0.5);
         }
 
         @keyframes profileFloat {
@@ -806,6 +808,12 @@
             .social-icon i {
                 font-size: 1.2rem;
             }
+
+            .about-profile-image {
+                width: 220px;
+                height: 220px;
+                margin-top: 2rem;
+            }
         }
 
         /* Scroll animations */
@@ -906,7 +914,7 @@
         <div class="container">
             <h2 class="section-title" data-aos="fade-up">About Me</h2>
             <div class="row">
-                <div class="col-lg-10 mx-auto">
+                <div class="col-lg-12">
                     <div class="row align-items-center">
                         <div class="col-lg-8">
                             <div class="card-custom" data-aos="fade-up" data-aos-delay="200">
