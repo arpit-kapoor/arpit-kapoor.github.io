@@ -165,6 +165,21 @@
             animation: profileFloat 6s ease-in-out infinite;
         }
 
+        .about-profile-image {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 6px solid rgba(116, 185, 255, 0.3);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+            animation: profileFloat 6s ease-in-out infinite;
+            transition: all 0.3s ease;
+        }
+
+        .about-profile-image:hover {
+            transform: scale(1.05);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+        }
+
         @keyframes profileFloat {
             0%, 100% { transform: translateY(0px); }
             50% { transform: translateY(-15px); }
@@ -461,6 +476,30 @@
 
         [data-theme="light"] .footer .social-links a:hover {
             color: #74b9ff;
+        }
+
+        .footer-subtitle {
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 0;
+        }
+
+        [data-theme="dark"] .footer-subtitle {
+            color: rgba(236, 240, 241, 0.8);
+        }
+
+        [data-theme="light"] .footer-subtitle {
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        /* Light mode button styling */
+        [data-theme="light"] .btn-custom {
+            background: linear-gradient(135deg, rgba(52, 152, 219, 0.9) 0%, rgba(44, 62, 80, 0.9) 100%);
+            color: white;
+        }
+
+        [data-theme="light"] .btn-custom:hover {
+            background: linear-gradient(135deg, rgba(52, 152, 219, 1) 0%, rgba(44, 62, 80, 1) 100%);
+            color: white;
         }
 
         /* Awards Section */
@@ -867,8 +906,10 @@
         <div class="container">
             <h2 class="section-title" data-aos="fade-up">About Me</h2>
             <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <div class="card-custom" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-10 mx-auto">
+                    <div class="row align-items-center">
+                        <div class="col-lg-8">
+                            <div class="card-custom" data-aos="fade-up" data-aos-delay="200">
                         <div class="card-body">
                             <p class="lead text-center mb-4">
                                 I am a final-year PhD candidate at the University of New South Wales, Sydney, Australia, 
@@ -910,6 +951,10 @@
                                 </div>
                             </div>
                         </div>
+                        </div>
+                        <div class="col-lg-4 text-center" data-aos="fade-left" data-aos-delay="400">
+                            <img src="/images/profile_anim.png" alt="Arpit Kapoor" class="about-profile-image img-fluid">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -925,12 +970,12 @@
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <h4>Australian Bureau of Meteorology, Sydney</h4>
-                        <h5 class="text-primary">Research Support Scientist</h5>
-                        <p class="text-muted">FEB 2023 - PRESENT</p>
+                        <h5 class="text-primary">Climate Science Support Officer</h5>
+                        <p class="text-muted">FEB 2023 - APR 2025</p>
                         <p>
                             Implemented multivariate bias correction method (MRNBC) for the Australian Climate Service. 
                             Developed Python wrapper for FORTRAN-based bias correction and implemented parallel 
-                            framework using Dask on NCI Gadi for large-scale climate datasets.
+                            compute framework using Dask on NCI Gadi for large-scale climate datasets.
                         </p>
                     </div>
                 </div>
@@ -1398,7 +1443,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <p>&copy; 2024 Arpit Kapoor. All rights reserved.</p>
-                    <p class="text-muted">PhD Candidate in Data Science | UNSW Sydney</p>
+                    <p class="footer-subtitle">PhD Candidate in Data Science | UNSW Sydney</p>
                 </div>
             </div>
         </div>
