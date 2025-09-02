@@ -420,6 +420,7 @@
             color: white;
             padding: 3rem 0;
             text-align: center;
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
 
         .social-links a {
@@ -431,6 +432,35 @@
 
         .social-links a:hover {
             color: var(--secondary-color);
+        }
+
+        /* Footer dark mode styling */
+        [data-theme="dark"] .footer {
+            background: #1a1a1a;
+            color: #ecf0f1;
+            border-top: 1px solid rgba(116, 185, 255, 0.2);
+        }
+
+        [data-theme="dark"] .footer .social-links a {
+            color: #ecf0f1;
+        }
+
+        [data-theme="dark"] .footer .social-links a:hover {
+            color: #74b9ff;
+        }
+
+        /* Footer light mode styling */
+        [data-theme="light"] .footer {
+            background: var(--primary-color);
+            color: white;
+        }
+
+        [data-theme="light"] .footer .social-links a {
+            color: white;
+        }
+
+        [data-theme="light"] .footer .social-links a:hover {
+            color: #74b9ff;
         }
 
         /* Awards Section */
@@ -581,6 +611,39 @@
         [data-theme="dark"] .achievement-item:hover {
             box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(116, 185, 255, 0.3);
             border-color: rgba(116, 185, 255, 0.3);
+        }
+
+        /* Black cards in bluish sections (bg-light) for dark mode */
+        [data-theme="dark"] .section.bg-light .card-custom,
+        [data-theme="dark"] .section.bg-light .award-card,
+        [data-theme="dark"] .section.bg-light .achievement-item {
+            background: linear-gradient(145deg, #1a1a1a, #2c2c2c);
+            border: 1px solid rgba(116, 185, 255, 0.3);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(116, 185, 255, 0.2);
+        }
+
+        [data-theme="dark"] .section.bg-light .card-custom:hover,
+        [data-theme="dark"] .section.bg-light .award-card:hover,
+        [data-theme="dark"] .section.bg-light .achievement-item:hover {
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(116, 185, 255, 0.4);
+            border-color: rgba(116, 185, 255, 0.4);
+        }
+
+        /* Dark overlays for project images in dark mode */
+        [data-theme="dark"] .project-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.4);
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        [data-theme="dark"] .project-overlay {
+            z-index: 2;
         }
 
         [data-theme="dark"] .text-muted {
