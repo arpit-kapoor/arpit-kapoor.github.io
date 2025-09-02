@@ -51,10 +51,20 @@
             box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
         }
 
+        .navbar.scrolled-dark {
+            background: rgba(44, 62, 80, 0.95);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
         .navbar-brand {
             font-weight: 700;
             font-size: 1.5rem;
             color: var(--primary-color) !important;
+            transition: color 0.3s ease;
+        }
+
+        .navbar.scrolled-dark .navbar-brand {
+            color: white !important;
         }
 
         .nav-link {
@@ -63,13 +73,24 @@
             transition: color 0.3s ease;
         }
 
+        .navbar.scrolled-dark .nav-link {
+            color: rgba(255, 255, 255, 0.9) !important;
+        }
+
         .nav-link:hover {
             color: var(--secondary-color) !important;
         }
 
+        .navbar.scrolled-dark .nav-link:hover {
+            color: #74b9ff !important;
+        }
+
         /* Hero Section */
         .hero-section {
-            background: var(--gradient-primary);
+            background: linear-gradient(135deg, rgba(44, 62, 80, 0.8) 0%, rgba(52, 73, 94, 0.9) 100%), url('/images/header/leaves.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -84,7 +105,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><defs><radialGradient id="a" cx="50%" cy="50%"><stop offset="0%" stop-color="%23ffffff" stop-opacity="0.1"/><stop offset="100%" stop-color="%23ffffff" stop-opacity="0"/></radialGradient></defs><rect width="100%" height="100%" fill="url(%23a)"/></svg>');
+            background: rgba(44, 62, 80, 0.3);
             animation: float 20s ease-in-out infinite;
         }
 
@@ -165,6 +186,54 @@
             transform: translateY(-3px);
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
             color: white;
+        }
+
+        /* Social Icons */
+        .social-icons {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .social-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .social-icon i {
+            font-size: 1.3rem;
+        }
+
+        .social-icon:hover {
+            color: white;
+            transform: translateY(-3px) scale(1.1);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        .social-icon.linkedin:hover {
+            background: #0077b5;
+            border-color: #0077b5;
+        }
+
+        .social-icon.scholar:hover {
+            background: #4285f4;
+            border-color: #4285f4;
+        }
+
+        .social-icon.github:hover {
+            background: #333;
+            border-color: #333;
         }
 
         /* Section Styling */
@@ -389,6 +458,20 @@
             .timeline-marker {
                 left: 20px;
             }
+
+            .social-icons {
+                justify-content: center;
+                gap: 1rem;
+            }
+
+            .social-icon {
+                width: 45px;
+                height: 45px;
+            }
+
+            .social-icon i {
+                font-size: 1.2rem;
+            }
         }
 
         /* Scroll animations */
@@ -455,6 +538,17 @@
                         <div class="mt-4">
                             <a href="#contact" class="btn-custom me-3">Get In Touch</a>
                             <a href="/assets/Resume.pdf" class="btn-custom" target="_blank">Download CV</a>
+                        </div>
+                        <div class="social-icons mt-4">
+                            <a href="https://www.linkedin.com/in/arpit-kapoor47/" target="_blank" class="social-icon linkedin" data-bs-toggle="tooltip" data-bs-placement="bottom" title="LinkedIn Profile">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://scholar.google.com/citations?user=2caOA5wAAAAJ&hl=en" target="_blank" class="social-icon scholar" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Google Scholar">
+                                <i class="fab fa-google"></i>
+                            </a>
+                            <a href="https://github.com/arpit-kapoor" target="_blank" class="social-icon github" data-bs-toggle="tooltip" data-bs-placement="bottom" title="GitHub Profile">
+                                <i class="fab fa-github"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -624,7 +718,10 @@
     <section id="projects" class="section bg-light">
         <div class="container">
             <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
-            <div class="row">
+            
+            <!-- Top 3 Featured Projects -->
+            <h4 class="text-center mb-4" data-aos="fade-up" data-aos-delay="100">Key Research Projects</h4>
+            <div class="row mb-5">
                 <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in">
                     <div class="project-card">
                         <img src="/images/projects/DeepGR4J.jpg" alt="DeepGR4J" class="img-fluid">
@@ -667,6 +764,89 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Additional Projects List -->
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h4 class="text-center mb-4" data-aos="fade-up">Additional Research Projects</h4>
+                    <div class="row">
+                        <div class="col-md-6" data-aos="fade-right">
+                            <div class="card-custom mb-4">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="/images/projects/bntl.png" alt="BNTL" class="img-fluid me-3" style="width: 60px; height: 60px; object-fit: cover; border-radius: 8px;">
+                                        <div>
+                                            <h5 class="mb-1">Bayesian Neural Transfer Learning</h5>
+                                            <p class="text-muted mb-0">Uncertainty quantification in transfer learning</p>
+                                        </div>
+                                    </div>
+                                    <p class="mb-3">Quantify uncertainty in Transfer Learning with Bayesian Neural Networks trained via MCMC.</p>
+                                    <div>
+                                        <a href="https://github.com/sydney-machine-learning/Bayesian-neural-transfer-learning" class="btn btn-outline-primary btn-sm me-2">Code</a>
+                                        <a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231219314213" class="btn btn-outline-success btn-sm">Paper</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6" data-aos="fade-left">
+                            <div class="card-custom mb-4">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="/images/projects/Surrogate.jpg" alt="Surrogate" class="img-fluid me-3" style="width: 60px; height: 60px; object-fit: cover; border-radius: 8px;">
+                                        <div>
+                                            <h5 class="mb-1">Surrogate-assisted Parallel Tempering</h5>
+                                            <p class="text-muted mb-0">Accelerated Bayesian inference</p>
+                                        </div>
+                                    </div>
+                                    <p class="mb-3">Surrogate models to estimate computationally expensive objective functions in Parallel Tempering.</p>
+                                    <div>
+                                        <a href="https://github.com/sydney-machine-learning/surrogate-assisted-parallel-tempering" class="btn btn-outline-primary btn-sm me-2">Code</a>
+                                        <a href="https://www.sciencedirect.com/science/article/abs/pii/S0952197620301299" class="btn btn-outline-success btn-sm">Paper</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6" data-aos="fade-right">
+                            <div class="card-custom mb-4">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="/images/projects/cm_final.png" alt="Bayeslands" class="img-fluid me-3" style="width: 60px; height: 60px; object-fit: cover; border-radius: 8px;">
+                                        <div>
+                                            <h5 class="mb-1">Surrogate-assisted Bayeslands</h5>
+                                            <p class="text-muted mb-0">Landscape evolution modeling</p>
+                                        </div>
+                                    </div>
+                                    <p class="mb-3">Surrogate-assisted tempered MCMC for Bayesian inference in landscape topography evolution models.</p>
+                                    <div>
+                                        <a href="https://github.com/intelligentEarth/surrogate-pt-Bayeslands" class="btn btn-outline-primary btn-sm me-2">Code</a>
+                                        <a href="https://gmd.copernicus.org/articles/13/2959/2020/gmd-13-2959-2020.html" class="btn btn-outline-success btn-sm">Paper</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6" data-aos="fade-left">
+                            <div class="card-custom mb-4">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="/images/projects/maze.png" alt="RL Humanoid" class="img-fluid me-3" style="width: 60px; height: 60px; object-fit: cover; border-radius: 8px;">
+                                        <div>
+                                            <h5 class="mb-1">Humanoid Maze Solver</h5>
+                                            <p class="text-muted mb-0">Deep reinforcement learning</p>
+                                        </div>
+                                    </div>
+                                    <p class="mb-3">Hierarchical RL approach for teaching maze-solving to humanoid robots using MuJoCo simulation.</p>
+                                    <div>
+                                        <a href="https://github.com/arpit-kapoor/RL-Humanoid" class="btn btn-outline-primary btn-sm">Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -680,24 +860,70 @@
                         <h5>DeepGR4J: A deep learning hybridization approach for conceptual rainfall-runoff modelling</h5>
                         <p class="text-muted">Environmental Modelling & Software, 169, 105831 (2023)</p>
                         <p>A novel hybrid approach combining process-based hydrological models with deep learning for improved streamflow prediction.</p>
+                        <div class="mt-3">
+                            <a href="https://www.sciencedirect.com/science/article/pii/S1364815223002177" class="btn btn-outline-primary btn-sm me-2" target="_blank">
+                                <i class="fas fa-external-link-alt me-1"></i>Publisher
+                            </a>
+                            <a href="https://github.com/arpit-kapoor/Research/raw/main/2023/Kapoor_EMS2023-DeepGR4J.pdf" class="btn btn-outline-danger btn-sm" target="_blank">
+                                <i class="fas fa-file-pdf me-1"></i>PDF
+                            </a>
+                        </div>
                     </div>
                     
                     <div class="publication-item" data-aos="fade-left" data-aos-delay="200">
                         <h5>Cyclone trajectory and intensity prediction with uncertainty quantification using variational recurrent neural networks</h5>
                         <p class="text-muted">Environmental Modelling & Software (2023): 105654</p>
                         <p>Implementation of variational Bayesian methods for uncertainty quantification in cyclone prediction using RNNs.</p>
+                        <div class="mt-3">
+                            <a href="https://www.sciencedirect.com/science/article/abs/pii/S1364815223000403" class="btn btn-outline-primary btn-sm me-2" target="_blank">
+                                <i class="fas fa-external-link-alt me-1"></i>Publisher
+                            </a>
+                            <a href="https://github.com/arpit-kapoor/Research/raw/main/2023/Kapoor_EMS2023.pdf" class="btn btn-outline-danger btn-sm" target="_blank">
+                                <i class="fas fa-file-pdf me-1"></i>PDF
+                            </a>
+                        </div>
                     </div>
                     
                     <div class="publication-item" data-aos="fade-left" data-aos-delay="400">
                         <h5>Bayesian neuroevolution using distributed swarm optimization and tempered MCMC</h5>
                         <p class="text-muted">Applied Soft Computing (2022): 109528</p>
                         <p>Novel approach combining swarm optimization with tempered MCMC for training Bayesian neural networks.</p>
+                        <div class="mt-3">
+                            <a href="https://www.sciencedirect.com/science/article/pii/S1568494622006056" class="btn btn-outline-primary btn-sm me-2" target="_blank">
+                                <i class="fas fa-external-link-alt me-1"></i>Publisher
+                            </a>
+                            <a href="https://github.com/arpit-kapoor/Research/raw/main/2022/Kapoor_ASOC2022.pdf" class="btn btn-outline-danger btn-sm" target="_blank">
+                                <i class="fas fa-file-pdf me-1"></i>PDF
+                            </a>
+                        </div>
                     </div>
                     
                     <div class="publication-item" data-aos="fade-left" data-aos-delay="600">
                         <h5>Surrogate-assisted parallel tempering for Bayesian neural learning</h5>
                         <p class="text-muted">Engineering Applications of Artificial Intelligence, 94, 103700 (2020)</p>
                         <p>Accelerated Bayesian inference using surrogate models to reduce computational overhead in neural network training.</p>
+                        <div class="mt-3">
+                            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0952197620301299" class="btn btn-outline-primary btn-sm me-2" target="_blank">
+                                <i class="fas fa-external-link-alt me-1"></i>Publisher
+                            </a>
+                            <a href="https://github.com/arpit-kapoor/Research/raw/main/2020/Chandra_EngAppAI2020.pdf" class="btn btn-outline-danger btn-sm" target="_blank">
+                                <i class="fas fa-file-pdf me-1"></i>PDF
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="publication-item" data-aos="fade-left" data-aos-delay="800">
+                        <h5>Bayesian neural multi-source transfer learning</h5>
+                        <p class="text-muted">Neurocomputing, 378, 54-64 (2020)</p>
+                        <p>Uncertainty quantification in transfer learning using Bayesian neural networks with MCMC sampling.</p>
+                        <div class="mt-3">
+                            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231219314213" class="btn btn-outline-primary btn-sm me-2" target="_blank">
+                                <i class="fas fa-external-link-alt me-1"></i>Publisher
+                            </a>
+                            <a href="https://github.com/arpit-kapoor/Research/raw/main/2020/Chandra_NC2020.pdf" class="btn btn-outline-danger btn-sm" target="_blank">
+                                <i class="fas fa-file-pdf me-1"></i>PDF
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -766,13 +992,30 @@
             once: true
         });
 
-        // Navbar scroll effect
+        // Initialize Bootstrap tooltips
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+
+        // Navbar scroll effect with dark section detection
         window.addEventListener('scroll', function() {
             const navbar = document.querySelector('.navbar');
+            const heroSection = document.querySelector('.hero-section');
+            const heroHeight = heroSection.offsetHeight;
+            
             if (window.scrollY > 50) {
                 navbar.classList.add('scrolled');
+                
+                // Check if we're over the hero section (dark background)
+                if (window.scrollY < heroHeight - 100) {
+                    navbar.classList.add('scrolled-dark');
+                } else {
+                    navbar.classList.remove('scrolled-dark');
+                }
             } else {
                 navbar.classList.remove('scrolled');
+                navbar.classList.remove('scrolled-dark');
             }
         });
 
