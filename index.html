@@ -96,7 +96,8 @@
             display: flex;
             align-items: center;
             position: relative;
-            overflow: hidden;
+            overflow: auto;
+            padding: 100px 0 50px;
         }
 
         .hero-section::before {
@@ -303,7 +304,9 @@
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
             border: none;
             transition: all 0.3s ease, background-color 0.3s ease, color 0.3s ease;
-            overflow: hidden;
+            overflow: visible;
+            height: auto;
+            min-height: fit-content;
         }
 
         .card-custom:hover {
@@ -313,6 +316,8 @@
 
         .card-custom .card-body {
             padding: 2rem;
+            height: auto;
+            overflow: visible;
         }
 
         /* Experience Timeline */
@@ -910,6 +915,83 @@
             }
         }
 
+        /* MacBook and laptop displays (1024px - 1440px) */
+        @media (min-width: 769px) and (max-width: 1440px) {
+            .hero-section {
+                min-height: auto;
+                padding: 120px 0 80px;
+            }
+
+            .section {
+                padding: 80px 0;
+            }
+
+            .card-custom .card-body {
+                padding: 1.75rem;
+            }
+
+            .card-custom .card-body p {
+                font-size: 0.95rem;
+                line-height: 1.7;
+                margin-bottom: 1rem;
+            }
+
+            .hero-title {
+                font-size: 3.5rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.3rem;
+            }
+
+            .profile-image-large {
+                width: 320px;
+                height: 320px;
+            }
+        }
+
+        /* Smaller MacBook displays (1024px - 1280px) */
+        @media (min-width: 769px) and (max-width: 1280px) {
+            .hero-title {
+                font-size: 3rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.2rem;
+            }
+
+            .section-title {
+                font-size: 2.5rem;
+            }
+
+            .card-custom .card-body {
+                padding: 1.5rem;
+            }
+
+            .card-custom .card-body p {
+                font-size: 0.9rem;
+                line-height: 1.65;
+            }
+
+            .card-custom .card-body h5 {
+                font-size: 1.1rem;
+            }
+
+            .profile-image-large {
+                width: 280px;
+                height: 280px;
+            }
+
+            /* Adjust about section layout */
+            #home .row {
+                align-items: flex-start !important;
+            }
+
+            #home .card-custom {
+                max-height: none;
+            }
+        }
+
         /* Scroll animations */
         .fade-in-up {
             opacity: 0;
@@ -1317,13 +1399,13 @@
                 <div class="col-lg-10 mx-auto">
                     <div class="publication-item" data-aos="fade-left">
                         <h5>QDeepGR4J: Quantile-based ensemble of deep learning and GR4J hybrid rainfall-runoff models for extreme flow prediction with uncertainty quantification</h5>
-                        <p class="text-muted">arXiv preprint arXiv:2510.05453 (2025)</p>
+                        <p class="text-muted">Journal of Hydrology (2025)</p>
                         <p>Extension of DeepGR4J using quantile regression-based ensemble learning framework for uncertainty quantification in streamflow prediction and extreme flow event identification.</p>
                         <div class="mt-3">
-                            <a href="https://arxiv.org/abs/2510.05453" class="btn btn-outline-primary btn-sm me-2" target="_blank">
-                                <i class="fas fa-external-link-alt me-1"></i>arXiv
+                            <a href="https://doi.org/10.1016/j.jhydrol.2025.134434" class="btn btn-outline-primary btn-sm me-2" target="_blank">
+                                <i class="fas fa-external-link-alt me-1"></i>Publisher
                             </a>
-                            <a href="https://arxiv.org/pdf/2510.05453.pdf" class="btn btn-outline-danger btn-sm" target="_blank">
+                            <a href="https://github.com/arpit-kapoor/Research/raw/main/2025/Kapoor_JoH-QDeepGR4J.pdf" class="btn btn-outline-danger btn-sm" target="_blank">
                                 <i class="fas fa-file-pdf me-1"></i>PDF
                             </a>
                         </div>
@@ -1397,7 +1479,7 @@
                                 <i class="fas fa-file-pdf me-1"></i>PDF
                             </a>
                         </div>
-                    </div>
+                    </div>`
                 </div>
             </div>
         </div>
