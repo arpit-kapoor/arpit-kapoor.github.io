@@ -109,6 +109,7 @@
             bottom: 0;
             background: rgba(44, 62, 80, 0.3);
             animation: float 20s ease-in-out infinite;
+            pointer-events: none;
         }
 
         @keyframes float {
@@ -318,6 +319,30 @@
             padding: 2rem;
             height: auto;
             overflow: visible;
+        }
+
+        .card-custom a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border-bottom: 2px solid transparent;
+            position: relative;
+            z-index: 10;
+        }
+
+        .card-custom a:hover {
+            color: var(--accent-color);
+            border-bottom: 2px solid var(--accent-color);
+        }
+
+        [data-theme="dark"] .card-custom a {
+            color: #74b9ff;
+        }
+
+        [data-theme="dark"] .card-custom a:hover {
+            color: #ff7675;
+            border-bottom-color: #ff7675;
         }
 
         /* Experience Timeline */
