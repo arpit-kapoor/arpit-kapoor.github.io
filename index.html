@@ -66,7 +66,16 @@
             font-weight: 700;
             font-size: 1.5rem;
             color: var(--primary-color) !important;
-            transition: color 0.3s ease;
+            transition: all 0.3s ease;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(10px);
+        }
+
+        .navbar.show-brand .navbar-brand {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
         }
 
         .navbar.scrolled-dark .navbar-brand {
@@ -275,6 +284,11 @@
         .social-icon.github:hover {
             background: #333;
             border-color: #333;
+        }
+
+        .social-icon.usyd:hover {
+            background: #e64626;
+            border-color: #e64626;
         }
 
         /* Section Styling */
@@ -1085,7 +1099,7 @@
                 <div class="col-lg-6 text-center">
                     <div class="hero-content mb-4">
                         <h1 class="hero-title">Arpit Kapoor</h1>
-                        <h2 class="hero-subtitle">Researcher in Environmental Data Science</h2>
+                        <h2 class="hero-subtitle">Environmental Data Scientist</h2>
                     </div>
                     
                     <img src="/images/profile_anim.png" alt="Arpit Kapoor" class="profile-image img-fluid profile-image-large">
@@ -1104,6 +1118,9 @@
                         </a>
                         <a href="https://github.com/arpit-kapoor" target="_blank" class="social-icon github" data-bs-toggle="tooltip" data-bs-placement="bottom" title="GitHub Profile">
                             <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://profiles.sydney.edu.au/arpit.kapoor" target="_blank" class="social-icon usyd" data-bs-toggle="tooltip" data-bs-placement="bottom" title="University Profile">
+                            <i class="fas fa-university"></i>
                         </a>
                     </div>
                 </div>
@@ -1662,6 +1679,7 @@
                                 <a href="https://www.linkedin.com/in/arpit-kapoor47/" target="_blank"><i class="fab fa-linkedin"></i></a>
                                 <a href="https://github.com/arpit-kapoor" target="_blank"><i class="fab fa-github"></i></a>
                                 <a href="https://scholar.google.com/citations?user=2caOA5wAAAAJ&hl=en" target="_blank"><i class="fab fa-google"></i></a>
+                                <a href="https://profiles.sydney.edu.au/arpit.kapoor" target="_blank"><i class="fas fa-university"></i></a>
                                 <a href="https://medium.com/@kapoor.arpit97" target="_blank"><i class="fab fa-medium"></i></a>
                             </div>
                         </div>
@@ -1764,6 +1782,13 @@
             } else {
                 navbar.classList.remove('scrolled');
                 navbar.classList.remove('scrolled-dark');
+            }
+
+            // Show navbar brand only when scrolled past the hero title (approx 300px)
+            if (window.scrollY > 300) {
+                navbar.classList.add('show-brand');
+            } else {
+                navbar.classList.remove('show-brand');
             }
         });
 
